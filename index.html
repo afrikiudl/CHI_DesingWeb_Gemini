@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcredencial en Accesibilidad Digital - Universitat de Lleida</title>
+    <meta name="description" content="Fórmate con nuestra microcredencial 100% online y aprende a crear experiencias digitales inclusivas para todos.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="header__logo-link" aria-label="Inicio - Microcredencial en Accesibilidad Digital">
+                <img src="https://via.placeholder.com/150x50?text=UdL+Logo" alt="Logo de la Universitat de Lleida" class="header__logo">
+            </a>
+            <button class="nav__toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menú</span>
+                <svg class="nav__toggle-icon" viewBox="0 0 100 80" width="30" height="30" fill="#fff">
+                  <rect width="100" height="15" rx="8"></rect>
+                  <rect y="30" width="100" height="15" rx="8"></rect>
+                  <rect y="60" width="100" height="15" rx="8"></rect>
+                </svg>
+            </button>
+            <nav class="nav" id="primary-navigation">
+                <ul class="nav__list">
+                    <li><a href="#presentacion" class="nav__link">Presentación</a></li>
+                    <li><a href="#programa" class="nav__link">Programa</a></li>
+                    <li><a href="#profesorado" class="nav__link">Profesorado</a></li>
+                    <li><a href="#calendario" class="nav__link">Calendario</a></li>
+                    <li><a href="#matricula" class="nav__link">Matrícula</a></li>
+                    <li><a href="#faq" class="nav__link">FAQ</a></li>
+                    <li><a href="#contacto" class="nav__link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero__container">
+                <div class="hero__text">
+                    <h1 id="hero-title">Microcredencial Universitaria en Especialización en Accesibilidad Digital</h1>
+                    <p class="hero__subtitle">Aprende a crear experiencias digitales inclusivas que funcionen para todos, independientemente de su capacidad o discapacidad.</p>
+                    <a href="#matricula" class="button button--primary">Inscríbete ahora</a>
+                </div>
+                 <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=640" alt="Personas diversas colaborando en un ordenador portátil en un entorno de trabajo moderno." class="hero__image">
+            </div>
+        </section>
+
+        <section id="presentacion" class="section" aria-labelledby="presentacion-title">
+            <div class="container">
+                <h2 id="presentacion-title" class="section__title">Presentación del Curso</h2>
+                <div class="presentation-grid">
+                    <div class="card">
+                        <h3 class="card__title">🎯 Objetivo</h3>
+                        <p>Formar en diseño, desarrollo y evaluación de contenidos web accesibles según la EAA, EN 301 549 y WCAG 2.2.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">👥 Público Objetivo</h3>
+                        <p>Dirigido a trabajadores, autónomos y estudiantes interesados en la inclusión digital.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">💻 Modalidad y Duración</h3>
+                        <p>100% online (5h/semana) durante 3 meses. Clases en vivo lunes y jueves de 18:00h a 20:00h.</p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card__title">🎓 Certificación e Idioma</h3>
+                        <p>Certificado de formación continua de la Universitat de Lleida. Curso impartido 100% en español.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="programa" class="section section--light" aria-labelledby="programa-title">
+            <div class="container">
+                <h2 id="programa-title" class="section__title">Programa Académico</h2>
+                <div class="accordion">
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="programa-1">
+                            Módulo 1. Fundamentos en accesibilidad digital
+                            <span class="accordion__icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="programa-1" class="accordion__panel" hidden>
+                        <p>Introducción a la accesibilidad digital, tecnologías de asistencia, normativas, barreras digitales y primeras herramientas de evaluación. Es la base conceptual para entender la accesibilidad como derecho y requisito normativo.</p>
+                        <strong>Resultados de aprendizaje:</strong>
+                        <ul>
+                            <li>Comprender principios y ventajas de la accesibilidad.</li>
+                            <li>Conocer cómo las personas con discapacidad acceden a la web.</li>
+                            <li>Identificar normas internacionales (WCAG) y barreras comunes.</li>
+                        </ul>
+                    </div>
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="programa-2">
+                            Módulo 2. Diseño accesible
+                            <span class="accordion__icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="programa-2" class="accordion__panel" hidden>
+                        <p>Fundamentos de diseño digital accesible, arquitectura de información, interacción, color, tipografía, iconografía y uso de Figma. Se busca incorporar la accesibilidad desde la fase de diseño.</p>
+                        <strong>Resultados de aprendizaje:</strong>
+                        <ul>
+                            <li>Aplicar estrategias de diseño inclusivo.</li>
+                            <li>Resolver errores comunes de diseño.</li>
+                            <li>Usar IA como apoyo al diseño accesible.</li>
+                        </ul>
+                    </div>
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="programa-3">
+                            Módulo 3. Codificación accesible
+                            <span class="accordion__icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="programa-3" class="accordion__panel" hidden>
+                        <p>Buenas prácticas en HTML semántico, CSS, JavaScript, WAI-ARIA, gestión del foco y navegación por teclado, con apoyo de IA, para garantizar la accesibilidad técnica.</p>
+                        <strong>Resultados de aprendizaje:</strong>
+                        <ul>
+                            <li>Aplicar técnicas de marcado accesible con HTML y ARIA.</li>
+                            <li>Corregir errores comunes de código.</li>
+                            <li>Utilizar IA para generar y validar código accesible.</li>
+                        </ul>
+                    </div>
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="programa-4">
+                            Módulo 4. Evaluación de la accesibilidad
+                            <span class="accordion__icon" aria-hidden="true"></span>
+                        </button>
+                    </h3>
+                    <div id="programa-4" class="accordion__panel" hidden>
+                        <p>Metodología WCAG-EM, herramientas automáticas y semiautomáticas, pruebas de usuario, redacción de informes y declaración de accesibilidad. Proporciona herramientas para auditorías y cumplimiento legal.</p>
+                        <strong>Resultados de aprendizaje:</strong>
+                        <ul>
+                            <li>Realizar evaluaciones de accesibilidad con tecnologías de apoyo.</li>
+                            <li>Analizar errores y proponer soluciones.</li>
+                            <li>Usar la IA como apoyo en la evaluación.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profesorado" class="section" aria-labelledby="profesorado-title">
+            <div class="container">
+                <h2 id="profesorado-title" class="section__title">Profesorado Experto</h2>
+                <div class="team-grid">
+                    <div class="card card--team">
+                        <img src="https://i.pravatar.cc/150?u=mario" alt="" class="card__image">
+                        <h3 class="card__title">Mario</h3>
+                        <p class="card__subtitle">Especialista en accesibilidad</p>
+                        <a href="https://linkedin.com/in/mario" target="_blank" rel="noopener noreferrer" class="card__link">Ver perfil en LinkedIn</a>
+                    </div>
+                    <div class="card card--team">
+                        <img src="https://i.pravatar.cc/150?u=xavi" alt="" class="card__image">
+                        <h3 class="card__title">Xavi</h3>
+                        <p class="card__subtitle">Especialista en diseño</p>
+                        <a href="https://linkedin.com/in/xavi" target="_blank" rel="noopener noreferrer" class="card__link">Ver perfil en LinkedIn</a>
+                    </div>
+                    <div class="card card--team">
+                        <img src="https://i.pravatar.cc/150?u=alberto" alt="" class="card__image">
+                        <h3 class="card__title">Alberto</h3>
+                        <p class="card__subtitle">Especialista en desarrollo</p>
+                        <a href="https://linkedin.com/in/alberto" target="_blank" rel="noopener noreferrer" class="card__link">Ver perfil en LinkedIn</a>
+                    </div>
+                    <div class="card card--team">
+                        <img src="https://i.pravatar.cc/150?u=maria" alt="" class="card__image">
+                        <h3 class="card__title">María</h3>
+                        <p class="card__subtitle">Especialista en evaluación</p>
+                        <a href="https://linkedin.com/in/maria" target="_blank" rel="noopener noreferrer" class="card__link">Ver perfil en LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="calendario" class="section section--light" aria-labelledby="calendario-title">
+            <div class="container">
+                <h2 id="calendario-title" class="section__title">Calendario</h2>
+                <div class="timeline">
+                    <div class="timeline__item">
+                        <div class="timeline__date">25 Sep</div>
+                        <div class="timeline__content"><strong>Clase 0:</strong> Sesión de bienvenida.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">Octubre</div>
+                        <div class="timeline__content"><strong>Módulo 1:</strong> Fundamentos en accesibilidad.</div>
+                    </div>
+                     <div class="timeline__item">
+                        <div class="timeline__date">Noviembre</div>
+                        <div class="timeline__content"><strong>Módulos 2 y 3:</strong> Diseño y Codificación.</div>
+                    </div>
+                    <div class="timeline__item">
+                        <div class="timeline__date">Diciembre</div>
+                        <div class="timeline__content"><strong>Módulo 4 y Cierre:</strong> Evaluación y sesión con empresa invitada.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="matricula" class="section" aria-labelledby="matricula-title">
+            <div class="container">
+                 <h2 id="matricula-title" class="section__title">Matrícula y Precios</h2>
+                 <div class="pricing-grid">
+                     <div class="card card--pricing">
+                        <h3 class="card__title">Microcredencial</h3>
+                        <p class="card__price">358€</p>
+                        <p class="card__description">Precio especial para personas de 25 a 64 años.</p>
+                     </div>
+                     <div class="card card--pricing">
+                        <h3 class="card__title">Curso Completo</h3>
+                        <p class="card__price">1192€</p>
+                        <p class="card__description">Precio general sin bonificación.</p>
+                     </div>
+                     <div class="card card--pricing">
+                        <h3 class="card__title">Por Módulo</h3>
+                        <p class="card__price">400€</p>
+                        <p class="card__description">350€ con descuento (desempleo, discapacidad, colegiados).</p>
+                     </div>
+                 </div>
+            </div>
+        </section>
+        
+        <section id="faq" class="section section--light" aria-labelledby="faq-title">
+            <div class="container">
+                <h2 id="faq-title" class="section__title">Preguntas Frecuentes</h2>
+                <div class="accordion">
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-1">¿Cuándo empieza el curso?</button>
+                    </h3>
+                    <div id="faq-1" class="accordion__panel" hidden>
+                        <p>La clase 0 es el 25 de septiembre. El primer módulo comienza en octubre. Consulta el calendario para ver todas las fechas.</p>
+                    </div>
+                    <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-2">¿Qué precio tiene?</button>
+                    </h3>
+                    <div id="faq-2" class="accordion__panel" hidden>
+                        <p>El precio bonificado de la microcredencial es de 358€. El precio completo es de 1192€. También puedes cursar módulos sueltos.</p>
+                    </div>
+                     <h3 class="accordion__heading">
+                        <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-3">¿Cuándo son las clases en directo?</button>
+                    </h3>
+                    <div id="faq-3" class="accordion__panel" hidden>
+                        <p>Las clases síncronas son los lunes y jueves de 18:00 a 20:00 (hora de Madrid, CET).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section__title">¿Tienes dudas? ¡Contacta!</h2>
+                <form class="form" novalidate>
+                    <div class="form__group">
+                        <label for="name" class="form__label">Nombre</label>
+                        <input type="text" id="name" name="name" class="form__input" required autocomplete="name">
+                        <span class="form__error" id="name-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Correo electrónico</label>
+                        <input type="email" id="email" name="email" class="form__input" required autocomplete="email">
+                        <span class="form__error" id="email-error" aria-live="polite"></span>
+                    </div>
+                    <div class="form__group">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea id="message" name="message" class="form__input" rows="5" required></textarea>
+                        <span class="form__error" id="message-error" aria-live="polite"></span>
+                    </div>
+                    <button type="submit" class="button button--primary">Enviar mensaje</button>
+                    <div id="form-status" role="status" aria-live="assertive"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__section">
+                <h3 class="footer__title">Navegación</h3>
+                <ul class="footer__list">
+                    <li><a href="#presentacion" class="footer__link">Presentación</a></li>
+                    <li><a href="#programa" class="footer__link">Programa</a></li>
+                    <li><a href="#profesorado" class="footer__link">Profesorado</a></li>
+                </ul>
+            </div>
+            <div class="footer__section">
+                <h3 class="footer__title">Contacto</h3>
+                <p>Email: <a href="mailto:cfc.formaciocontinua@udl.cat" class="footer__link">cfc.formaciocontinua@udl.cat</a></p>
+                <p>Web: <a href="https://www.formaciocontinua.udl.cat/" class="footer__link" target="_blank" rel="noopener noreferrer">Formación Continua UdL</a></p>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Universitat de Lleida. Todos los derechos reservados.</p>
+                <p>Web realizada por Afriki</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
